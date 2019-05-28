@@ -42,7 +42,7 @@
                 </div>
                 <div class="row">  
                     <br>
-                    <h4 id="center"><b>ALTERAÇÃO DOS DADOS DO PRODUTO</b></h4>
+                    <h4 id="center"><b>ALTERAR DADOS DO PRODUTO</b></h4>
                     <br> 
                     <form method="post" 
                           action="{{route('product.update', $product->id)}}" 

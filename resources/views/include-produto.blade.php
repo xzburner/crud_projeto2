@@ -41,7 +41,7 @@
                 </div>
                 <div class="row">  
                     <br>
-                    <h4 id="center"><b>CADASTRO DOS DADOS DO PRODUTO</b></h4>
+                    <h4 id="center"><b>CADASTRO DE PRODUTOS</b></h4>
                     <br> 
                     <form method="post" 
                           action="{{route('product.store')}}" 
@@ -56,16 +56,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="foto"> Foto </label>
-                                <input type="text" name="imagem"
-                                       accept=".gif,.jpg,.png"
-                                       class="form-control"
-                                       data-toggle="tooltip" 
-                                       data-placement="top"
-                                       title="Usar arquivo com dimensões 300x300 
-                                       - JPG, GIF, PNG">
-                            </div>   
+                            
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
